@@ -1,0 +1,457 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2, nav {
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 2.027rem;
+}
+
+h2{
+    font-size: 1.802rem;
+    font-weight: 800;
+}
+
+p a {
+    font-family: karla;
+    font-size: 16px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f3f0e9;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 100;
+  }
+
+  skip-link:focus {
+    top: 0;
+  }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 45%;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+a {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: white 2px solid;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+.navi:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: white 0 solid;
+    padding: 0;
+    box-shadow: 0 0 15px white;
+}
+
+header a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-right: 50px;
+    gap: 30px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.hero {
+    background-image: url(../images/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.barner {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.button1 {
+    background-color: #000000;
+    color: white;
+}
+
+.button1:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: white 2px solid;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+.barner>h1{
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.barner>p{
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.galery {
+    background-color: #f3f0e9;
+    padding: 10px;
+    padding-top: 50px;
+    margin-top: 0;
+}
+
+.galery>h2 {
+    display: block;
+    width: 80%;
+}
+
+.text {
+    color: #d69e3d;
+    font-weight: 200;
+    font-size: 1.424rem;
+}
+
+
+
+.coffee {
+    margin: auto;
+    box-sizing:border-box;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "lc lc"
+                         "cb pc"
+                         "tc se";
+}
+img {
+    width: 100%;
+}
+
+#le{grid-area: lc;}
+#cb{grid-area: cb;}
+#pc{grid-area: pc;}
+#tc{grid-area: tc;}
+#se{grid-area: se;}
+
+.offer{
+    margin-top: 60px;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.offer p {
+    text-align: center;
+}
+
+.offer h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.offer img {
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.menulocation {
+    height: 130vh;
+    background-image: url(../images/coffee-shop.jpeg);
+    background-size: contain;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.barner2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.barner2 p{
+    margin-bottom: 0;
+}
+
+.barner2 h2{
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.barner2 a{
+    margin-bottom: 20px;
+}
+
+.about{
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about>h2{
+    margin-top: 15PX;
+    margin-bottom: 15PX;
+}
+
+.text1 {
+    color: #966f2c;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1.424rem;
+}
+
+.testimonials, .jane, .scott, .susie {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+blockquote{
+    margin-left: 0;
+}
+
+/* .jane {
+    background-image: url(../images/testimonial-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    margin-bottom: 20px;
+} */
+.jane{
+    height: 75vh;
+    background-image: url(../images/testimonial-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.scott{
+    height: 75vh;
+    background-image: url(../images/testimonial-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 20px;
+}
+
+.susie{
+    height: 75vh;
+    background-image: url(../images/testimonial-3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    margin-bottom: 0;
+}
+
+.block{
+    height: 100%;
+    width: 100%;
+    align-content: end;
+    color: #ffffff;
+}
+
+hr {
+    margin: 10px;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .offer > h2 {
+        width: 50%;
+    }
+
+    .coffee {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "lc lc cb pc"
+                             "lc lc tc se";
+    }
+
+    .visit {grid-area: vi;}
+    .fair-trade {grid-area: ft;}
+    .local-baked {grid-area: lb;}
+    .mwl {grid-area: wl;}
+
+    .offer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: ". vi vi ."
+                             "ft ft lb lb"
+                             ". wl wl .";
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 20px;
+
+        padding-bottom: 50px;
+
+    }
+
+    .barner2{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    .about img{
+        width: 50%;
+    }
+    .about{
+        display: flex;
+        gap: 20px;
+    }
+
+    .testimonials>div{
+        display: flex;
+        gap: 10px;
+    }
+
+    .jane,.scott,.susie{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .barner{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .galery, .about, .testimonials, footer {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .offer{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: ". vi ."
+                             "ft lb wl";
+        gap:20px
+    }
+
+    .offer img{
+        width: 100px;
+    }
+
+    .menulocation {
+        height: 45vh;
+    }
+
+    .barner2 {
+        justify-content: center;
+    }
+
+    .testimonials {
+        height: 70vh;
+    }
+
+    .jane,.scott,.susie{
+        height: 300px;
+        padding-bottom: 0;
+    }
+
+}
