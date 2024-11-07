@@ -1,4 +1,4 @@
-body {
+body{
     font-family: 'Karla', sans-serif;
     background-color: #f3f0e9;
     color: #000000;
@@ -16,7 +16,7 @@ h1{
 
 h2{
     font-size: 1.802rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 p a {
@@ -230,7 +230,7 @@ img {
 }
 
 .menulocation {
-    height: 130vh;
+    height: 100vh;
     background-image: url(../images/coffee-shop.jpeg);
     background-size: contain;
     background-size: cover;
@@ -254,13 +254,8 @@ img {
     display: block;
     width: 75%;
     margin: auto;
-    margin-bottom: 50px;
-    margin-top: 20px;
 }
 
-.barner2 a{
-    margin-bottom: 20px;
-}
 
 .about{
     padding: 10px;
@@ -292,13 +287,6 @@ blockquote{
     margin-left: 0;
 }
 
-/* .jane {
-    background-image: url(../images/testimonial-1.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 75vh;
-    margin-bottom: 20px;
-} */
 .jane{
     height: 75vh;
     background-image: url(../images/testimonial-1.jpeg);
